@@ -1,3 +1,10 @@
+
+RUDA Ind - Minimal E-Shop > using a Bootstrap template. 💌
+-------------------------------------------------------------------------------------------------
+
+<img src="https://user-images.githubusercontent.com/67395736/106469984-c0e7b680-647e-11eb-83d9-2d80737f4a07.png" alt="Ruda E-shop Logo">
+
+
 # [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
 [Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, window modals for each portfolio item, and a working PHP contact form.
