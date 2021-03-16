@@ -48,7 +48,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Lato';
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -64,7 +64,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000000;
   text-align: left;
   background-color: #fff;
 }
@@ -368,7 +368,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
 }
@@ -6203,9 +6203,16 @@ a.close.disabled {
 .align-text-top {
   vertical-align: text-top !important;
 }
-
+.bg-ruda {
+  background-color: black !important;
+}
+/* .bg-primary{
+  background-color: black !important;
+} */
 .bg-primary {
-  background-color: #000000 !important;
+  background-image: url(/img/portfolio/bg.jpg) !important;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6215,7 +6222,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #FFC83D!important;
+  background-color: #00000077!important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9519,6 +9526,11 @@ a.text-dark:hover, a.text-dark:focus {
   .container {
     min-width: 992px !important;
   }
+
+  .bg-header{
+    width: 100%;
+    height: 25vh;
+  }
   .navbar {
     display: none;
   }
@@ -9556,12 +9568,14 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-section .page-section-heading {
-  font-size: 2.25rem;
+  padding: 1rem;
+  font-size: 2rem;
   line-height: 2rem;
 }
 
 @media (min-width: 992px) {
   .page-section .page-section-heading {
+    padding: 1rem;
     font-size: 3rem;
     line-height: 2.5rem;
   }
@@ -9637,7 +9651,7 @@ a.text-dark:hover, a.text-dark:focus {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
 
@@ -9672,8 +9686,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
@@ -9764,12 +9778,14 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .portfolio-modal .portfolio-modal-title {
+  padding: 1rem;
   font-size: 2.25rem;
   line-height: 2rem;
 }
 
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
+    padding: 1rem;
     font-size: 3rem;
     line-height: 2.5rem;
   }
@@ -9782,7 +9798,7 @@ a.text-dark:hover, a.text-dark:focus {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #1abc9c;
+  color: #000;
   opacity: 1;
 }
 
