@@ -6210,9 +6210,7 @@ a.close.disabled {
   background-color: black !important;
 } */
 .bg-primary {
-  background-image: url(/img/portfolio/bg.jpg) !important;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color:black;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
